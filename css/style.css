@@ -1,0 +1,134 @@
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1130px;
+    padding: 0px 5px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: blueviolet;
+    border-bottom: 2px solid #FFF;
+    padding-top: 16px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1370px;
+}
+
+.logo {
+    display: block;
+    max-width: 187px;
+    min-height: 81px;
+}
+
+.logo__img {}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+    column-gap: 36px;
+}
+
+.nav__item {
+    border-bottom: 2px solid transparent;
+
+}
+
+.nav__item.active {
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.nav__link {
+    font-size: 16px;
+    line-height: 1.13px;
+    color: #FFFFFF;
+}
+
+.header__contact {
+    display: flex;
+    column-gap: 52px;
+    align-items: center;
+}
+
+.location,
+.tel {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.13px;
+}
+
+.tel {}
+
+.main {
+    background-color: rgb(147, 148, 230);
+}
+
+.hero {}
+
+.hero__main {}
+
+.title {}
+
+.subtitle {}
+
+.hero__btns {}
+
+.btn {}
+
+.hero__call-to-action {}
+
+.advantages {}
+
+.advantage {}
+
+.advantage__img {}
+
+.advantage__desc {}
