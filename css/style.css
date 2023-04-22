@@ -124,23 +124,11 @@ p {
 }
 
 
-@media (max-width: 960px) {
-    .header .location {
-        display: none;
-    }
-
-    .container {
-        max-width: 898px;
-    }
-}
-
-
-
 .main {}
 
 .hero {
     height: 100vh;
-    background: url(../img/bg/bg.png.png) no-repeat left top/cover;
+    background: url(../img/bg/bg.png.png) no-repeat center/cover;
     padding-top: 272px;
     color: #FFFFFF;
     display: flex;
@@ -157,6 +145,7 @@ p {
 
 .hero__main {
     flex: 1;
+    padding-left: 95px;
 }
 
 .title {
@@ -208,12 +197,15 @@ p {
 .advantages {
     display: flex;
     justify-content: space-between;
+    padding: 0px 20px;
+    column-gap: 24px;
 }
 
 .advantage {
     text-align: center;
     border-radius: 4px;
     padding: 16px 10px;
+
 
 }
 
@@ -225,13 +217,31 @@ p {
 
 .advantage__img {
     margin-bottom: 14px;
+    height: 30px;
+    width: 30px;
 }
 
 .advantage__desc {}
 
 @media (max-width: 960px) {
+    .header .location {
+        display: none;
+    }
+
+    .container {
+        max-width: 898px;
+    }
+
     .title {
         font-size: 42px;
+    }
+
+    .hero {
+        padding-top: 210px;
+    }
+
+    .hero__main {
+        padding-left: 73px;
     }
 
     .hero__subtitle {
@@ -244,10 +254,20 @@ p {
     }
 }
 
-@media (max-width: 760px) {
+
+@media (max-width: 768px) {
+    .header {
+        z-index: 10;
+    }
+
     .container {
         max-width: 722px;
     }
+
+    .advantage {
+        font-size: 14px;
+    }
+
 
     .nav {
         display: none;
@@ -258,8 +278,26 @@ p {
 
     }
 
+    .hero:before {
+        content: "";
+        display: block;
+        position: absolute;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 19.11%);
+
+    }
+
     .logo {
         max-width: 142px;
+    }
+
+    .hero {
+        padding-top: 170px;
+    }
+
+    .advantage__img {
+        margin-bottom: 11px;
+        height: 24px;
+        width: 24px;
     }
 
 }
@@ -272,5 +310,38 @@ p {
     .logo {
         max-width: 81px;
     }
+
+    .hero {
+        padding-top: 120px;
+    }
+
+    .hero__main {
+        padding-left: 0px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .hero .title {
+        margin-bottom: 5px;
+    }
+
+    .hero__subtitle {
+        font-size: 14px;
+        margin-bottom: 33px;
+    }
+
+    .hero__btns {
+        row-gap: 14px;
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+
 
 }
