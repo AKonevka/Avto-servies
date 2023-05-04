@@ -85,10 +85,6 @@ p {
     min-height: 81px;
 }
 
-.logo__img {}
-
-
-
 .nav__list {
     display: flex;
     column-gap: 36px;
@@ -157,11 +153,6 @@ p {
     right: 0;
     width: 83%;
 }
-
-
-
-
-.main {}
 
 .hero {
     height: 100vh;
@@ -259,7 +250,114 @@ p {
     width: 30px;
 }
 
-.advantage__desc {}
+.details__title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 63px;
+    text-align: center;
+    color: #E7E7E7;
+    padding-top: 62px;
+    margin-bottom: 10px;
+}
+
+.details__subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin-bottom: 123px;
+}
+
+.detalis__info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 2.55em;
+    column-gap: 2.1em;
+    align-items: center;
+
+}
+
+.info__object {
+    width: 405px;
+    position: relative;
+}
+
+.info__object::before {
+    content: '0';
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5em;
+    line-height: 1.17;
+    color: #E7E7E7;
+    text-align: center;
+}
+
+.benefits {
+    background: url(../img/bg/bg.png2.png);
+}
+
+.benefits__title {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 63px;
+}
+
+.benefits__subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: white;
+    margin: 10px 0 60px 0;
+}
+
+
+.advantage__benefits {
+    width: 211px;
+    height: 211px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.benefits__list {
+    display: flex;
+    column-gap: 10px;
+    padding-bottom: 90px;
+}
+
+.background {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.benefits__desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #252525;
+}
+
+.benefits__img {
+    margin: 41px 87.5px 29px 87.5px;
+    width: 35px;
+    height: 35px;
+
+}
+
+
+
+
+
+
+
 
 @media (max-width: 960px) {
     .header .location {
@@ -289,6 +387,40 @@ p {
 
     .logo {
         max-width: 181px;
+    }
+
+    .benefits__title {
+        padding-top: 45px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+    }
+
+    .benefits__subtitle {
+        margin: 10px 0 45px 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .advantage__benefits {
+        width: 167px;
+        height: 118px;
+    }
+
+    .benefits__img {
+        margin: 19px 71px 13px 71px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .benefits__desc {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .benefits__list{
+        padding-bottom: 60px;
     }
 }
 
@@ -339,6 +471,35 @@ p {
         margin-bottom: 11px;
         height: 24px;
         width: 24px;
+    }
+
+    .benefits__title {
+        padding-top: 40px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .benefits__subtitle {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 30px;
+    }
+
+    .advantage__benefits {
+        width: 134px;
+        height: 123px;
+    }
+
+    .benefits__img {
+        margin: 15px 57px 11px 57px;
+        width: 20px;
+        height: 20px;
+
+    }
+    .benefits__list{
+        padding-bottom: 50px;
     }
 
 }
@@ -417,10 +578,6 @@ p {
         padding: 0;
     }
 
-    .advantage {}
-
-    .advantage__desc {}
-
     .advantage__img {
         width: 22px;
         height: 22px;
@@ -440,8 +597,37 @@ p {
         color: black;
         background-color: white;
         padding: 17px;
-
     }
+
+    .benefits__title {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .benefits__subtitle {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .benefits__list{
+        flex-direction: column;
+    }
+    .advantage__benefits{
+        width: 100%;
+        padding: 0;
+        column-gap: 0;
+    }
+    .benefits__list{
+        row-gap: 10px;
+        padding-bottom: 40px;
+    }
+    .benefits__img{
+        margin: 17px 19px 17px 17px;
+    }
+
+
+
 
 }
 
