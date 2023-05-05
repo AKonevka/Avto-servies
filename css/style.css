@@ -297,7 +297,8 @@ p {
 }
 
 .benefits {
-    background: url(../img/bg/bg.png2.png);
+    background: url(../img/bg/bg.png2.png) no-repeat center/cover;
+  
 }
 
 .benefits__title {
