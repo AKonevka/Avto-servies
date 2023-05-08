@@ -316,7 +316,7 @@ p {
 
 .info__object:before {
     counter-increment: item-count;
-    content: "0" counter(item-count);
+    content: "0"counter(item-count);
     font-family: 'Roboto', sans-serif;
     z-index: -10;
     position: absolute;
@@ -399,7 +399,7 @@ p {
 
 
 .service__item {
-    width: 23.7\%;
+    width: 24%;
     border: 2px solid #D4D4D4;
 }
 
@@ -414,12 +414,22 @@ p {
 .service__item-text {
     text-align: center;
     padding: 14px 0 14px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(37, 37, 37, 1);
+
 }
 
 .service__btn {
     margin-top: 60px;
-    justify-content: center;
     width: 170px;
+
+}
+
+.service-content_btn {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -498,6 +508,34 @@ p {
 
     .benefits__list {
         padding-bottom: 60px;
+    }
+
+    .section__title {
+        font-size: 40px;
+        line-height: 47px;
+    }
+
+    .section__subtitle {
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 45px;
+    }
+
+    .service__btn {
+        margin-top: 40px;
+    }
+
+    .service__item-text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .service {
+        padding: 45px 0 60px;
+    }
+    .service__list{
+        row-gap: 16px;
     }
 }
 
@@ -578,6 +616,24 @@ p {
 
     .benefits__list {
         padding-bottom: 50px;
+    }
+
+    .service {
+        padding: 40px 0 50px;
+    }
+
+    .section__title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .section__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 30px;
+    }
+    .service__list{
+        row-gap: 13px;
     }
 
 }
@@ -707,7 +763,26 @@ p {
     .benefits__img {
         margin: 17px 19px 17px 17px;
     }
+    .service__item{
+        width: 140px;
+    }
+    .section__title {
+        font-size: 15px;
+        line-height: 18px;
+    }
 
+    .section__subtitle {
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 30px;
+    }
+    .service {
+        padding: 40px 0 40px;
+    }
+    .service__btn{
+       min-width:135px ;
+       width: 135px;
+    }
 
 
 
