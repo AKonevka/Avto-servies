@@ -84,7 +84,7 @@
 }
 
 .repair-order {
-    background: url(../img/services/XXL\ 1.png) no-repeat;
+    background: url(../img/services/XXL\ 1.png) no-repeat center/cover;
 }
 
 .repair-order-opacity {
@@ -159,4 +159,69 @@
     color: white;
     border: solid white 2px;
     width: 360px;
+}
+
+footer {
+    background-color: rgb(64, 64, 64);
+
+}
+
+.footer__location,
+.footer__tel {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.footer__list {
+    display: flex;
+    padding: 25px 0 25px;
+    column-gap: 70px;
+}
+
+.footer__container {
+
+    display: flex;
+}
+
+
+.footer__item-location {
+    position: relative;
+}
+
+.footer__logo {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    height: 50px;
+    margin-right: 46px;
+}
+
+.logo__img-footer {
+    height: 50px;
+}
+
+.footer-location__icon {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    left: -17px;
+
+}
+
+.footer__requisites {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.footer-list__tel {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__index {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 16px;
 }

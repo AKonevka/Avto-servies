@@ -649,7 +649,6 @@ footer {
     display: flex;
 }
 
-.footer__icon {}
 
 .footer__item-location {
     position: relative;
@@ -661,8 +660,6 @@ footer {
     height: 50px;
     margin-right: 46px;
 }
-
-.logo {}
 
 .logo__img-footer {
     height: 50px;
@@ -678,8 +675,6 @@ footer {
     left: -17px;
 
 }
-
-.logo__img {}
 
 .footer__requisites {
     color: #FFFFFF;
